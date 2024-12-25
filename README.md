@@ -22,7 +22,7 @@
 
 ###
 
-<p align="left">🧍 Person - Generate Names<br>📍 Location - Generate City<br>⏰ Date - Generates fake birthdate</p>
+<p align="left">🧍 Person - Generate Names<br>⏰ Date - Generates fake birthdate<br>📧 Email - Generates firstname based email</p><br>📍 Location - Generate City
 
 ###
 

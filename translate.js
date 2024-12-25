@@ -1,8 +1,5 @@
-import generateName from "./nameGenerator.js";
-import birthGenerator from "./birthGenerator.js"
-import generateloc from "./locationGen.js"
 
-let a = {
+export let a = {
     "Ө": "O", "ө": "o",
     "Ү": "U", "ү": "u",
     "Ё": "YO", "ё": "yo",
@@ -36,10 +33,8 @@ let a = {
     "Ф": "F", "ф": "f"
 };
 
-function transliterate(word) {
+export function funcTrans(word) {
     return word.split('').map(function (char) {
         return a[char] || char;
-    }).join("");
-}
-
-console.log(transliterate(generateName()))
+    }).join('');
+  }

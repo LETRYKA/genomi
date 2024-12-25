@@ -1,4 +1,4 @@
-import generateName from "./nameGenerator.js";
+import { generatedName, generatedEmail, generatedBirth} from "./nameGenerator.js";
 import birthGenerator from "./birthGenerator.js"
 import generateloc from "./locationGen.js"
 import colors from "./src/clr.js"
@@ -9,8 +9,8 @@ export const gen = (createRandomUser, count) => {
 };
 
 export default {
-    generateName,
-    birthGenerator,
+    generatedName,
+    generatedBirth,
     generateloc,
     colors,
     gen,

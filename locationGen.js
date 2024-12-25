@@ -1,8 +1,9 @@
-import city from './src/city.js';
+import { addresses } from './src/address.js'
+
 
 export function generateloc() {
-  const randomIndex = Math.floor(Math.random() * city.length);
-  return city[randomIndex];
+  const randomIndex = Math.floor(Math.random() * addresses.length);
+  return addresses[randomIndex];
 }
 
 export default generateloc;
