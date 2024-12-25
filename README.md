@@ -51,8 +51,9 @@ const { genomi } = require('genomi');
 
 export function createRandomUser() {
     return {
-        username: genomi.generateName(),
-        birthdate: genomi.birthGenerator(),
+        username: genomi.generatedName,
+        birthdate: genomi.generatedBirth,
+        email: genomi.generatedEmail,
         location: genomi.generateloc(),
     };
 }
