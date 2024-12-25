@@ -6,7 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "LETRYKA",
   "license": "ISC",
-  "description": ""
+  "description": "Generate fake data for testing and development.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LETRYKA/genomi.git"
+  },
+  "keywords": [
+    "faker",
+    "genomi",
+    "data",
+    "fake",
+    "user",
+    "generate"
+  ],
+  "bugs": {
+    "url": "https://github.com/LETRYKA/genomi/issues"
+  },
+  "homepage": "https://github.com/LETRYKA/genomi#readme"
 }
