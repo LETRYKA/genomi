@@ -16,4 +16,6 @@ const genomi = {
     gen
 };
 
+const { generateName, birthGenerator, generateloc, gen} = genomi;
+
 export default genomi;
