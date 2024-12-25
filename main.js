@@ -9,14 +9,4 @@ export const genomi = (createRandomUser, count) => {
 };
 
 
-export function createRandomUser() {
-    return {
-        username: generateName(),
-        birthdate: birthGenerator(),
-        location: generateloc(),
-    };
-}
-
-export const users = genomi(createRandomUser, 2);
-
-console.log(users)
+export default genomi;
