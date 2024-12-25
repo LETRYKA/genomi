@@ -8,14 +8,10 @@ export const gen = (createRandomUser, count) => {
     return Array.from({ length: count }, () => createRandomUser());
 };
 
-const genomi = {
+export default {
     generateName,
     birthGenerator,
     generateloc,
     colors,
-    gen
+    gen,
 };
-
-const { generateName, birthGenerator, generateloc, gen} = genomi;
-
-export default genomi;
