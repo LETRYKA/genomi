@@ -58,7 +58,7 @@ export function createRandomUser() {
 }
 
 
-export const users = gen(createRandomUser, 5); 
+export const users = genomi.gen(createRandomUser, 5); 
 ```
 
 ###
