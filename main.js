@@ -11,6 +11,7 @@ export const gen = (createRandomUser, count) => {
 export default {
     generatedName,
     generatedBirth,
+    generatedEmail,
     generateloc,
     colors,
     gen,
