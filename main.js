@@ -4,9 +4,16 @@ import generateloc from "./locationGen.js"
 import colors from "./src/clr.js"
 
 
-export const genomi = (createRandomUser, count) => {
+export const gen = (createRandomUser, count) => {
     return Array.from({ length: count }, () => createRandomUser());
 };
 
+const genomi = {
+    generateName,
+    birthGenerator,
+    generateloc,
+    colors,
+    gen
+};
 
 export default genomi;
